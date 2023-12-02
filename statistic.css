@@ -1,0 +1,101 @@
+.nav {
+    display: flex;
+    gap: 70px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact {
+    display: flex;
+    gap: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 78%);
+    height: 50px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(87, 87, 255);
+    font-family: sans-serif;
+}
+
+body {
+    margin:0%;
+    font-family: sans-serif;
+}
+
+.border {
+    border: 1px solid hsl(0, 0%, 78%);
+    height: 425px;
+    background-color: hsl(0, 0%, 78%);
+    border-radius: 20px;
+    width: 1000px;
+    margin-left: 70px;
+}
+
+h2 {
+    margin-left: 70px;
+    color: rgb(87, 87, 255);
+    margin-top: 30px;
+}
+
+.progressbar {
+    height: 4px;
+    background: #5555556c;
+    border-radius: 50px;
+    width: 900px;
+    margin-left: 15px;
+}
+
+.progressbar>span {
+    display: block;
+    height: 100%;
+    background-color: rgb(87, 87, 255);
+}
+
+p {
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.span {
+    margin-left: 800px;
+}
+
+.procent {
+    display: flex;
+    gap: 680px;
+}
+
+.procentwo {
+    display: flex;
+    gap: 660px;
+    margin-top: 60px;
+}
+
+.procenthree {
+    display: flex;
+    gap: 698px;
+    margin-top: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 78%);
+    margin-top: 140px;
+    height: 50px;
+    align-items: center;
+}
+
+

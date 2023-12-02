@@ -1,0 +1,60 @@
+.nav {
+    display: flex;
+    gap: 70px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact {
+    display: flex;
+    gap: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 78%);
+    height: 50px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(87, 87, 255);
+    font-family: sans-serif;
+}
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:center;
+}
+
+.about img:hover {
+    width: 650px;
+    transition: 1.5s;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 78%);
+    height: 50px;
+    align-items: center;
+}
